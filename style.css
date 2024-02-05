@@ -1,10 +1,18 @@
 #header
 {
-    text-align: center;
     border: solid black;
+    border-radius: 10px;
+    background-color: #f3ee6d;
 }
-a
+h1
 {
-    /* display: flex;
-    justify-content: space-between; */
+    text-align: center;
+    margin-top: 1%;
+}
+#nav
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-bottom: 1rem;
 }
