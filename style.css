@@ -1,18 +1,25 @@
-#header
-{
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+#header{
     border: solid black;
     border-radius: 10px;
     background-color: #f3ee6d;
 }
-h1
-{
+h1{
     text-align: center;
     margin-top: 1%;
 }
-#nav
-{
+#nav{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     padding-bottom: 1rem;
+}
+img{
+    width: 350px;
+    height: 300px;
+    border: solid black;
 }
