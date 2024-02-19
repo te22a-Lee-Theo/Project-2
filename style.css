@@ -21,5 +21,13 @@ h1{
 img{
     width: 350px;
     height: 300px;
+}
+.item{
+    width: 400px;
+    height: 350px;
     border: solid black;
+}
+p{
+    margin: 0%;
+    font-size: 2rem;
 }
