@@ -35,7 +35,7 @@ img{
     flex-direction: column;
     border: solid black;
     border-radius: 15px; 
-    background-image: linear-gradient(to top, black 0%, black 18%, white 18%, white 100%);
+    background-image: linear-gradient(to top, black 0%, black 22%, white 22%, white 100%);
     overflow: hidden;
 
 }
@@ -45,13 +45,42 @@ img{
     padding-left: 1rem;
     color: white;
 }
-.pris{
+/* .pris{
     font-size: 1.5em;
     color: white;
     margin-top: 0%;
     margin-bottom: 0%;
     padding-left: 1rem;
+    width: 25%; 
+}*/
+.button{
+    text-align: center;
+    font-size: 1em;
+    text-decoration: none;
+    background-color:rgb(97, 97, 207); 
+    color: white;
+    padding: 5px 15px;
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 35%;
+    position:relative;
+    left: 13em;
 }
+.button:hover{
+    transition: all 0.5s ease-in-out;
+    border-radius: 15px;
+}
+
+.link{
+    text-decoration: none;
+    color: black;
+    border: solid black;
+    border-radius: 5px;
+    padding: 5px 15px;
+    font-weight: bold;
+    background-color: #faf79c ;
+}
+
 
 @media screen and (min-width: 641px) and (max-width: 1007px){
     .grid{
@@ -59,5 +88,21 @@ img{
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr;
     }
+    .button{
+        position: relative;
+        left: 12em;
+    }
     
+}
+
+@media screen and (max-width: 640px){
+    .grid{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .button{
+        width: 50%;
+        position: relative;
+        left: 8em;
+    }
 }
