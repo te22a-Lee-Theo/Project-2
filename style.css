@@ -25,15 +25,23 @@ img{
     height: 300px;
     border-radius: 15px;
 }
-.item{
+.item1, .item2, .item3, .item4, .item5, .item6{
     display: flex;
-    flex-wrap: wrap;
-    /* width: 350px;
-    height: 300px; */
+    align-items: end;
     border: solid black;
-    border-radius: 15px;
-    
+    border-radius: 15px; 
+    background-size: cover;
 
+}
+.item1{
+    background-image: url("/img/Webb_lampa1.webp");
+}
+.item2{
+    background-image: url("/img/Webb_lampa2.webp");    
+    object-fit: fill;
+}
+.item3{
+    background-image: url("/img/Webb_lampa3.webp");
 }
 p{
     margin: 0%;
