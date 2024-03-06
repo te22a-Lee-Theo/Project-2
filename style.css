@@ -45,24 +45,6 @@ img{
     padding-left: 1rem;
     color: white;
 }
-/* .button{
-    text-align: center;
-    font-size: 1em;
-    text-decoration: none;
-    background-color:rgb(97, 97, 207); 
-    color: white;
-    padding: 5px 15px;
-    border: 1px solid white;
-    border-radius: 10px;
-    width: 35%;
-    position:relative;
-    left: 13em;
-}
-.button:hover{
-    transition: all 0.5s ease-in-out;
-    border-radius: 15px;
-} */
-
 .link{
     text-decoration: none;
     color: black;
@@ -71,6 +53,21 @@ img{
     padding: 5px 15px;
     font-weight: bold;
     background-color: #faf79c ;
+}
+button{
+    width: 40%;
+    position: relative;
+    left: 15em;
+}
+#varukorg{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+ul{
+    padding: 0;
+    margin: 0;
 }
 
 

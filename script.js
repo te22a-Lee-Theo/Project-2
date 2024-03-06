@@ -10,7 +10,7 @@ function updateCart(){
     const cartItemsElement = document.getElementById('varukorg-items')
     const cartTotalElement = document.getElementById('varukorg-total')
 
-    Element.innerHTML ='';
+    cartItemsElement.innerHTML ="";
 
     let total = 0;
     cart.forEach(item =>{
