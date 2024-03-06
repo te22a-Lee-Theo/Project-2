@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LampGalleriet</title>
     <link rel="stylesheet" href="style.css">
+    <script defer src="./script.js"></script>
 </head>
 <body> 
     <div id = "header">
@@ -19,7 +20,8 @@
         <div class = "item">
             <img src="./img/Webb_lampa1.webp" alt="Taklampa av trä">
             <p class= "produkt">Trälampa 299kr</p>
-            <a class= "button" href="">Lägg till i varukorg</a>
+            <!-- <a class= "button" href="">Lägg till i varukorg</a> -->
+            <button onclick="läggtillivarukorg('Trälampa', 299)">wjfowjf</button>
         </div>
         <div class = "item">
             <img src="./img/Webb_lampa2.webp" alt="Bordslampa lik en pistol">
@@ -48,7 +50,11 @@
         </div>
 
     </div>
-    
+        <div id="varukorg">
+        <h2>Varukorg</h2>
+        <ul id="varukorg-items"></ul>
+        <p>Totalt: <span id="varukorg-total">0</span>kr</p>
+    </div>
 </body>
 </html>
 
